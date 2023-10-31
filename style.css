@@ -1,0 +1,267 @@
+body {
+  display: inline-block;
+  margin: 0;
+  background-color: #C0B9EB;
+}
+
+p {
+  font-size: 20px;
+}
+
+li p {
+  margin: 0px;
+}
+
+.intro {
+  margin-bottom: 0px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #000000;
+  font-size: 35px;
+}
+
+.card_white {
+  background-color: white;
+  width: 360px;
+  padding: 30;
+  margin-top: 40;
+  box-shadow: 11px 18px 15px -10px rgba(0,0,0,1);
+  border-radius: 15px;
+}
+
+.img-haut {
+  height: 300px;
+  width: 1263.33;
+  background-image: url(images/img_haut.jpg);
+}
+
+.bande-blanche {
+  height: 150px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.5);
+}
+
+#border {
+  border-radius: 0px 0px 15px 15px;
+}
+
+.card-white {
+  width: 210;
+  margin-left: 55;
+  height: fit-content;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20 20 30 20;
+  box-shadow: 11px 18px 15px -10px rgba(0,0,0,1)
+}
+
+.big_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40;
+}
+
+.pp {
+  height: 275;
+  width: 275;
+  background-image: url(images/img_pp.jpg);
+  position: absolute;
+  left: 62; top: 155;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.oppose {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oppose p {
+  margin: 20 5 3;
+}
+
+.barre {
+  height: 10;
+  background-color: #dedeff;
+  border-radius: 10px;
+}
+
+.langue1 {
+  background-color: #613dc1;
+  width: 100%;
+}
+
+.langue2 {
+  background-color: #613dc1;
+  width: 80%;
+}
+
+.langue3 {
+  background-color: #613dc1;
+  width: 47%;
+}
+
+.langue4 {
+  background-color: #613dc1;
+  width: 10%;
+}
+
+.perso1 {
+  background-color: #613dc1;
+  width: 10;
+  height: 10;
+  margin-left: 80%;
+  border-radius: 15px;
+}
+
+.perso2 {
+  background-color: #613dc1;
+  width: 10;
+  height: 10;
+  margin-left: 35%;
+  border-radius: 15px;  
+}
+
+.perso3 {
+  background-color: #613dc1;
+  width: 10;
+  height: 10;
+  margin-left: 97.2%;
+  border-radius: 15px;  
+}
+
+.perso4 {
+  background-color: #613dc1;
+  width: 10;
+  height: 10;
+  margin-left: 17%;
+  border-radius: 15px;  
+}
+
+.but-style {
+  text-align: center;
+}
+
+.but-style:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.list-but{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.list-but li{
+  margin-top: 15;
+}
+
+.fa-taillecolor {
+  font-size: 3em;
+  color: #613dc1;
+}
+
+i:hover {
+  color: #dedeff;
+}
+
+.container-qualite-defaut {
+  display: flex;
+  flex-direction: column;
+}
+
+.qualite-defaut {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qualite-defaut p {
+  background-color: #dedeff;
+  border-radius: 15px;
+  padding: 10 15;
+  margin: 5;
+}
+
+@media (max-width: 965px) {
+  .big_container {
+    display: flex;
+    margin-bottom: 40;
+    flex-direction: column;
+    margin-left: 200;
+  }
+  .card-white {
+    width: 210;
+    margin-left: 80;
+    height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 11px 18px 15px -10px rgba(0,0,0,1);
+  }
+  .pp {
+    height: 275;
+    width: 275;
+    background-image: url(images/img_pp.jpg);
+    position: absolute;
+    left: 257; top: 155;
+    border-radius: 50%;
+    border: 10px solid white;
+  }
+}
+
+.barre-separation {
+  height: 2;
+  border-radius: 50%;
+  background-color: #858AE3;
+  margin-top: 40px;
+}
+
+.qualite-defaut-h2 {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .big_container {
+    display: flex;
+    margin-bottom: 40;
+    flex-direction: column;
+    margin-left: 75;
+  }
+  .card-white {
+    width: 210;
+    margin-left: 80;
+    height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 11px 18px 15px -10px rgba(0,0,0,1);
+  }
+    .pp {
+    height: 275;
+    width: 275;
+    background-image: url(images/img_pp.jpg);
+    position: absolute;
+    left: 134; top: 155;
+    border-radius: 50%;
+    border: 10px solid white;
+  }
+}
